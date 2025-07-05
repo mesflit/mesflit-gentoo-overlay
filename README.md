@@ -7,6 +7,8 @@ Mesflit's gentoo overlay
 `sudo eselect repository enable mesflit`
 
 # Sync repo
+`sudo emaint sync -r mesflit`
+or
 `sudo emerge --sync`
 
 # Accept Packages
