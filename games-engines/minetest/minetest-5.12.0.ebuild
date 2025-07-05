@@ -56,10 +56,7 @@ RDEPEND="lua_single_target_luajit? ( ${LUA_DEPS} )
 	postgres? ( >=dev-db/postgresql-9.5:= )
 	prometheus? ( dev-cpp/prometheus-cpp )
 	redis? ( dev-libs/hiredis:= )
-	server? (
-		acct-group/minetest::mesflit
-		acct-user/minetest::mesflit
-	)
+	server? ( acct-group/minetest::mesflit acct-user/minetest::mesflit )
 	spatial? ( sci-libs/libspatialindex:= )"
 DEPEND="${RDEPEND}"
 BDEPEND="
