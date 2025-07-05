@@ -6,5 +6,8 @@ Mesflit's gentoo overlay
 
 `sudo eselect repository enable mesflit`
 
+# Sync repo
+`sudo emerge --sync`
+
 # Accept Packages
 `echo '*/*::mesflit **' | sudo tee /etc/portage/package.accept_keywords/mesflit`
