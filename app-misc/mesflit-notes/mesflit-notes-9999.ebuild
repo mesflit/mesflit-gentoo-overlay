@@ -17,7 +17,7 @@ RDEPEND="${DEPEND}"
 src_install() {
     dodir /opt/mesflit-notes
     cp -r "${WORKDIR}/"* "${ED}"/opt/mesflit-notes/ || die
-
+}
 pkg_postinst() {
     elog "mesflit-notes installed from git."
     elog "Run it with: mesflit-notes"
