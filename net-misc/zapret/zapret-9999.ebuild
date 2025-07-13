@@ -13,8 +13,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="net-libs/libnetfilter_queue
-	net-firewall/iptables"
+DEPEND="net-libs/libnetfilter_queue"
 RDEPEND="${DEPEND}"
 
 src_install() {
