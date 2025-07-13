@@ -19,11 +19,11 @@ src_install() {
     cp -r "${WORKDIR}/"* "${ED}"/opt/mesflit-notes/ || die
 
     dodir /usr/local/bin
-    newscript /usr/local/bin/mesflit-notes <<- EOF
+    newscript /usr/bin/mesflit-notes <<- EOF
 #!/bin/sh
 python3 /opt/mesflit-notes/mesflit-notes.py "\$@"
 EOF
-    chmod 755 /usr/local/bin/mesflit-notes
+    chmod 755 /usr/bin/mesflit-notes
 }
 
 pkg_postinst() {
