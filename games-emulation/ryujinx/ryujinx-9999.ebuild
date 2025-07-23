@@ -266,7 +266,7 @@ if [[ "${PV}" == *9999* ]] ; then
 
 	EGIT_REPO_URI="https://git.ryujinx.app/ryubing/ryujinx.git"
 else
-	SRC_URI="SRC_URI="https://git.ryujinx.app/ryubing/ryujinx/-/archive/${PV}/ryujinx-${PV}.tar.gz -> ${P}.tar.gz"
+	SRC_URI="https://git.ryujinx.app/ryubing/ryujinx/-/archive/${PV}/ryujinx-${PV}.tar.gz -> ${P}.tar.gz"
 	S="${WORKDIR}/${P^}"
 
 	KEYWORDS="amd64"
